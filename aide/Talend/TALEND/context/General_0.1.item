@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd">
+  <talendfile:ContextType confirmationNeeded="false" name="Default">
+    <contextParameter comment="" name="data_directory" prompt="data_directory?" promptNeeded="false" type="id_String" value="/home/m1mfafc/ferlicotdelbe/TP/M1S1/ED/Talend/"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" name="Production">
+    <contextParameter comment="" name="data_directory" prompt="data_directory?" promptNeeded="false" type="id_String" value="/home/m1mfafc/ferlicotdelbe/TP/M1S1/ED"/>
+  </talendfile:ContextType>
+</xmi:XMI>

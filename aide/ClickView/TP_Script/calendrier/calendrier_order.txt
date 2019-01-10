@@ -1,0 +1,48 @@
+
+// =========== On récupère la première et la dernière date dans la table ORDER ==================
+MinMaxDate:
+Load Min(ORDER_DATE) as MinDate, Max(ORDER_DATE) as MaxDate resident ORDER;
+//let vFirstDate = makedate(2001,1,1);
+Let vFirstDate = peek('MinDate', 0, 'MinMaxDate') ;
+Let vLastDate = peek('MaxDate', 0, 'MinMaxDate') ;
+Let vDateZero = vFirstDate - 1;
+Drop Table MinMaxDate;
+
+LET vToday=Today();
+// =========== Paramètrage des années comptables ==================
+Set vFirstMonthOfBusiYear = 7 ;
+Let vFirstBusiYear = Year(Addmonths(vFirstDate,1-vFirstMonthOfBusiYear)) ;
+Let vLastBusiYear = Year(Addmonths(vLastDate,1-vFirstMonthOfBusiYear)) ;
+
+// =========== Dates ==================
+[Time Dimension]:
+Load distinct *,
+				// --------------- Flags
+	If(OrderMonth=Month($(vToday)),1) 				as IsThisMonth,
+	If(OrderMonth=Month(AddMonths($(vToday),-1)),1) as IsLastMonth,
+	If(OrderYear=Year($(vToday)),1) 				as IsThisYear,
+	Year($(vToday)),
+	If(OrderYear=Year(AddMonths($(vToday),-12)),1) 	as IsLastYear,
+	if(ORDER_DATE-YearStart(ORDER_DATE)>Today()-YearStart(Today()),Null(),OrderYear) as YTD,//
+	If(Year2Date(ORDER_DATE,Year(ORDER_DATE)-Year($(vToday)),1,$(vToday)),1) as IsWithinYTD,
+				// --------------- End Flags
+	Dual(OrderMonth, Mod(OrderMonth-$(vFirstMonthOfBusiYear),12)+1) as OrderBusinessMonth,
+	Dual('Q' & ceil(OrderMonth/3), ceil(OrderMonth/3)) 	as OrderQuarter,
+	Num(ceil(OrderMonth/3),'(ROM)') 					as OrderQuarter2	;
+Load *,
+	Dual(
+		Date(ORDER_DATE,'YY') &'/'& Date(AddMonths(ORDER_DATE,12),'YY'),
+		Year(Addmonths(ORDER_DATE,1-$(vFirstMonthOfBusiYear)))  
+		) as OrderBusinessYear,
+	Date(MonthStart(ORDER_DATE),'MMM-YY') as RollingMonth,
+	12*(Year(ORDER_DATE)-Year($(vToday)))-(Month(ORDER_DATE)-Month($(vToday))) as RollingMonth2,
+	
+	Year(ORDER_DATE) 	as OrderYear,
+	Month(ORDER_DATE) 	as OrderMonth,
+	Week(ORDER_DATE) 	as OrderWeek,
+	Day(ORDER_DATE) 		as OrderDay,
+	WeekDay(ORDER_DATE) 	as OrderWeekDay	;
+Load
+	Date($(vDateZero) + recno()) as ORDER_DATE
+Autogenerate vLastDate - vDateZero;
+

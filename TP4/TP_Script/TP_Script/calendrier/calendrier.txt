@@ -1,0 +1,27 @@
+
+SET varMinDate = AddYears(Today(),-3);
+SET varMaxDate = Today();
+
+//***************Calendrier Temporaire ***************
+CalendrierTemporaire:
+LOAD
+$(varMinDate) + rowno() - 1 AS Num, // Format numérique
+date($(varMinDate) + rowno() - 1) AS TempDate //Format Date
+AUTOGENERATE
+$(varMaxDate) - $(varMinDate) + 1;
+
+
+
+//*************** Calendrier Principal ***************
+CalendrierPrincipal:
+LOAD TempDate AS OrderDate,
+Week(TempDate) AS Week,
+Year(TempDate) AS Year,
+Month(TempDate) AS Mois,
+Day(TempDate) AS Day,
+Weekday(TempDate) AS WeekDay,
+'Q' & ceil(month(TempDate)/ 3) AS Quarter
+RESIDENT CalendrierTemporaire
+ORDER BY TempDate ASC; 
+
+

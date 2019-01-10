@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<talendfile:ContextType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" confirmationNeeded="false" name="Default">
+  <contextParameter comment="" name="fichier_sales_FieldSeparator" prompt="fichier_sales_FieldSeparator?" promptNeeded="false" type="id_String" value="&quot;;&quot;"/>
+  <contextParameter comment="" name="fichier_sales_File" prompt="fichier_sales_File?" promptNeeded="false" type="id_File" value="/home/m1mfafc/ferlicotdelbe/TP/M1S1/ED/Talend/data_sales.csv"/>
+  <contextParameter comment="" name="fichier_sales_Encoding" prompt="fichier_sales_Encoding?" promptNeeded="false" type="id_String" value="UTF-8"/>
+  <contextParameter comment="" name="fichier_sales_RowSeparator" prompt="fichier_sales_RowSeparator?" promptNeeded="false" type="id_String" value="&quot;\n&quot;"/>
+</talendfile:ContextType>

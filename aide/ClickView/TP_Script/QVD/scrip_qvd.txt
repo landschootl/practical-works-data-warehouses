@@ -1,0 +1,4 @@
+for i = 0 to NoOfTables()-1
+	LET d = TableName(i);
+	store $(d) into c:\temp\$(d).QVD;
+next 

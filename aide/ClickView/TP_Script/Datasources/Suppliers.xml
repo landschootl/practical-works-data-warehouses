@@ -1,0 +1,322 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Suppliers>
+ <_empty_>
+  <SupplierID>1</SupplierID>
+  <CompanyName>Sunny Clothes</CompanyName>
+  <ContactName>Peter Shilton</ContactName>
+  <Address>49 Gilbert St.</Address>
+  <City>London</City>
+  <PostalCode>EC1 4SD</PostalCode>
+  <Country>UK</Country>
+  <Phone>(171) 555-2333</Phone>
+  <Fax>(171) 555-2331</Fax>
+ </_empty_>
+ <_empty_>
+  <SupplierID>2</SupplierID>
+  <CompanyName>Big L</CompanyName>
+  <ContactName>James Brown</ContactName>
+  <Address>P.O. Box 78934</Address>
+  <City>New Orleans</City>
+  <PostalCode>70117</PostalCode>
+  <Country>USA</Country>
+  <Phone>(100) 555-4844</Phone>
+  <Fax>(100) 555-4944</Fax>
+ </_empty_>
+ <_empty_>
+  <SupplierID>3</SupplierID>
+  <CompanyName>Dressed for Succes</CompanyName>
+  <ContactName>Glenn Miller</ContactName>
+  <Address>707 Oxford Rd.</Address>
+  <City>Ann Arbor</City>
+  <PostalCode>48104</PostalCode>
+  <Country>USA</Country>
+  <Phone>(313) 555-5745</Phone>
+  <Fax>(313) 555-3349</Fax>
+ </_empty_>
+ <_empty_>
+  <SupplierID>4</SupplierID>
+  <CompanyName>Nitsuchiba</CompanyName>
+  <ContactName>James Sushi</ContactName>
+  <Address>9-8 Sekimai Musashino-shi</Address>
+  <City>Tokyo</City>
+  <PostalCode>100</PostalCode>
+  <Country>Japan</Country>
+  <Phone>(03) 3555-5000</Phone>
+  <Fax>(03) 3555-5002</Fax>
+ </_empty_>
+ <_empty_>
+  <SupplierID>5</SupplierID>
+  <CompanyName>Los Hombres Machos</CompanyName>
+  <ContactName>Antonio Banderas</ContactName>
+  <Address>Calle del Rosal 4</Address>
+  <City>Oviedo</City>
+  <PostalCode>33007</PostalCode>
+  <Country>Spain</Country>
+  <Phone>(98) 598 67 54</Phone>
+  <Fax>(98) 598 77 55</Fax>
+ </_empty_>
+ <_empty_>
+  <SupplierID>6</SupplierID>
+  <CompanyName>SatSUMAs</CompanyName>
+  <ContactName>Hirosho Tayoto</ContactName>
+  <Address>92 Setsuko Chuo-ku</Address>
+  <City>Osaka</City>
+  <PostalCode>545</PostalCode>
+  <Country>Japan</Country>
+  <Phone>(06) 431-5555</Phone>
+  <Fax>(06) 431-5566</Fax>
+ </_empty_>
+ <_empty_>
+  <SupplierID>7</SupplierID>
+  <CompanyName>New Balls</CompanyName>
+  <ContactName>Pat Cash</ContactName>
+  <Address>74 Rose St. Moonie Ponds</Address>
+  <City>Melbourne</City>
+  <PostalCode>3058</PostalCode>
+  <Country>Australia</Country>
+  <Phone>(03) 444-2398</Phone>
+  <Fax>(03) 444-6588</Fax>
+ </_empty_>
+ <_empty_>
+  <SupplierID>8</SupplierID>
+  <CompanyName>Hot Pants</CompanyName>
+  <ContactName>David Leg</ContactName>
+  <Address>29 King&apos;s Way</Address>
+  <City>Manchester</City>
+  <PostalCode>M14 GSD</PostalCode>
+  <Country>UK</Country>
+  <Phone>(161) 555-4909</Phone>
+  <Fax>(161) 555-4911</Fax>
+ </_empty_>
+ <_empty_>
+  <SupplierID>9</SupplierID>
+  <CompanyName>Goa Kläder</CompanyName>
+  <ContactName>Tomas Ravelli</ContactName>
+  <Address>Kaloadagatan 13</Address>
+  <City>Göteborg</City>
+  <PostalCode>S-345 67</PostalCode>
+  <Country>Sweden</Country>
+  <Phone>031-987 34 65</Phone>
+  <Fax>031-987 65 91</Fax>
+ </_empty_>
+ <_empty_>
+  <SupplierID>10</SupplierID>
+  <CompanyName>Samba</CompanyName>
+  <ContactName>Ronaldinho</ContactName>
+  <Address>Av. das Americanas 12.890</Address>
+  <City>Sao Paulo</City>
+  <PostalCode>5442</PostalCode>
+  <Country>Brazil</Country>
+  <Phone>(11) 555 2364</Phone>
+  <Fax>(11) 555 2388</Fax>
+ </_empty_>
+ <_empty_>
+  <SupplierID>11</SupplierID>
+  <CompanyName>Der Bahnhof</CompanyName>
+  <ContactName>Karl Straubaum</ContactName>
+  <Address>Tiergartenstraße 5</Address>
+  <City>Berlin</City>
+  <PostalCode>10785</PostalCode>
+  <Country>Germany</Country>
+  <Phone>(010) 9787664</Phone>
+  <Fax>(010) 9787655</Fax>
+ </_empty_>
+ <_empty_>
+  <SupplierID>12</SupplierID>
+  <CompanyName>Austerlich</CompanyName>
+  <ContactName>Karl Heinz Berger</ContactName>
+  <Address>Bogenallee 51</Address>
+  <City>Frankfurt</City>
+  <PostalCode>60439</PostalCode>
+  <Country>Germany</Country>
+  <Phone>(069) 9945679</Phone>
+  <Fax>(069) 9945688</Fax>
+ </_empty_>
+ <_empty_>
+  <SupplierID>13</SupplierID>
+  <CompanyName>Executive Clothing GMBH</CompanyName>
+  <ContactName>Markus Danzig</ContactName>
+  <Address>Frahmredder 112a</Address>
+  <City>Cuxhaven</City>
+  <PostalCode>27478</PostalCode>
+  <Country>Germany</Country>
+  <Phone>(04721) 2356</Phone>
+  <Fax>(04721) 8756</Fax>
+ </_empty_>
+ <_empty_>
+  <SupplierID>14</SupplierID>
+  <CompanyName>Ravenna Fashion</CompanyName>
+  <ContactName>Pablo Rossi</ContactName>
+  <Address>Viale Dante, 75</Address>
+  <City>Ravenna</City>
+  <PostalCode>48100</PostalCode>
+  <Country>Italy</Country>
+  <Phone>(0544) 6111</Phone>
+  <Fax>(0544) 60611</Fax>
+ </_empty_>
+ <_empty_>
+  <SupplierID>15</SupplierID>
+  <CompanyName>Bar Åkeri</CompanyName>
+  <ContactName>Atle Skårdal</ContactName>
+  <Address>Hatlevegen 5</Address>
+  <City>Sandvika</City>
+  <PostalCode>1320</PostalCode>
+  <Country>Norway</Country>
+  <Phone>(0)2-987653</Phone>
+  <Fax>(0)2-987650</Fax>
+ </_empty_>
+ <_empty_>
+  <SupplierID>16</SupplierID>
+  <CompanyName>Smooth Clothes</CompanyName>
+  <ContactName>Pamela Andersson</ContactName>
+  <Address>3400 - 8th Avenue Suite 210</Address>
+  <City>Bend</City>
+  <PostalCode>97101</PostalCode>
+  <Country>USA</Country>
+  <Phone>(503) 555-93472</Phone>
+  <Fax>(503) 555-93473</Fax>
+ </_empty_>
+ <_empty_>
+  <SupplierID>17</SupplierID>
+  <CompanyName>ABC</CompanyName>
+  <ContactName>Anna Book</ContactName>
+  <Address>Brovallavägen 231</Address>
+  <City>Stockholm</City>
+  <PostalCode>S-123 45</PostalCode>
+  <Country>Sweden</Country>
+  <Phone>08-123 33 65</Phone>
+  <Fax>08-123 33 75</Fax>
+ </_empty_>
+ <_empty_>
+  <SupplierID>18</SupplierID>
+  <CompanyName>Like Paradis</CompanyName>
+  <ContactName>Vanessa Paradis</ContactName>
+  <Address>203, Rue des Francs-Bourgeois</Address>
+  <City>Paris</City>
+  <PostalCode>75004</PostalCode>
+  <Country>France</Country>
+  <Phone>(1) 03.83.00.69</Phone>
+  <Fax>(1) 03.83.00.88</Fax>
+ </_empty_>
+ <_empty_>
+  <SupplierID>19</SupplierID>
+  <CompanyName>Mayflower</CompanyName>
+  <ContactName>Ray Bourke</ContactName>
+  <Address>Order Processing Dept. 2100 Paul Revere Blvd.</Address>
+  <City>Boston</City>
+  <PostalCode>2134</PostalCode>
+  <Country>USA</Country>
+  <Phone>(617) 555-3337</Phone>
+  <Fax>(617) 555-3398</Fax>
+ </_empty_>
+ <_empty_>
+  <SupplierID>20</SupplierID>
+  <CompanyName>Asin Fashion Ltd Co</CompanyName>
+  <ContactName>Li Chi Mihn</ContactName>
+  <Address>471 Serangoon Loop, Suite #402</Address>
+  <City>Singapore</City>
+  <PostalCode>512</PostalCode>
+  <Country>Singapore</Country>
+  <Phone>555-8789</Phone>
+  <Fax>555-8790</Fax>
+ </_empty_>
+ <_empty_>
+  <SupplierID>21</SupplierID>
+  <CompanyName>Prael Ltd</CompanyName>
+  <ContactName>Preben Elkjer</ContactName>
+  <Address>Lyngbysild Fiskebakken 10</Address>
+  <City>Lyngby</City>
+  <PostalCode>2800</PostalCode>
+  <Country>Denmark</Country>
+  <Phone>43844109</Phone>
+  <Fax>43844190</Fax>
+ </_empty_>
+ <_empty_>
+  <SupplierID>22</SupplierID>
+  <CompanyName>Niemegen Boots</CompanyName>
+  <ContactName>George van Zaant</ContactName>
+  <Address>Verkoop Rijnweg 22</Address>
+  <City>Zaandam</City>
+  <PostalCode>9999 ZZ</PostalCode>
+  <Country>Netherlands</Country>
+  <Phone>(12345) 1213</Phone>
+  <Fax>(12345) 1211</Fax>
+ </_empty_>
+ <_empty_>
+  <SupplierID>23</SupplierID>
+  <CompanyName>Nordik Koskenkorva</CompanyName>
+  <ContactName>Juha Mieto</ContactName>
+  <Address>Valtakatu 12</Address>
+  <City>Lappeenranta</City>
+  <PostalCode>53120</PostalCode>
+  <Country>Finland</Country>
+  <Phone>(953) 10999</Phone>
+  <Fax>(953) 11111</Fax>
+ </_empty_>
+ <_empty_>
+  <SupplierID>24</SupplierID>
+  <CompanyName>Cangaroo Shoes</CompanyName>
+  <ContactName>Crocodile Dundee</ContactName>
+  <Address>170 Prince Edward Parade Hunter&apos;s Hill</Address>
+  <City>Sydney</City>
+  <PostalCode>2042</PostalCode>
+  <Country>Australia</Country>
+  <Phone>(02) 555-5959</Phone>
+  <Fax>(02) 555-4875</Fax>
+ </_empty_>
+ <_empty_>
+  <SupplierID>25</SupplierID>
+  <CompanyName>Mountain International</CompanyName>
+  <ContactName>Celine Dion</ContactName>
+  <Address>2960 Rue St. Laurent</Address>
+  <City>Montréal</City>
+  <PostalCode>H1J 1C3</PostalCode>
+  <Country>Canada</Country>
+  <Phone>(514) 555-9090</Phone>
+  <Fax>(514) 555-9000</Fax>
+ </_empty_>
+ <_empty_>
+  <SupplierID>26</SupplierID>
+  <CompanyName>Pirilli Company</CompanyName>
+  <ContactName>Alberto Tomba</ContactName>
+  <Address>Via dei Gelsomini, 153</Address>
+  <City>Salerno</City>
+  <PostalCode>84100</PostalCode>
+  <Country>Italy</Country>
+  <Phone>(089) 6547666</Phone>
+  <Fax>(089) 6547777</Fax>
+ </_empty_>
+ <_empty_>
+  <SupplierID>27</SupplierID>
+  <CompanyName>Gal Export</CompanyName>
+  <ContactName>Marie Desailly</ContactName>
+  <Address>22, rue H. Voiron</Address>
+  <City>Montceau</City>
+  <PostalCode>71300</PostalCode>
+  <Country>France</Country>
+  <Phone>85.57.00.57</Phone>
+  <Fax>85.57.00.50</Fax>
+ </_empty_>
+ <_empty_>
+  <SupplierID>28</SupplierID>
+  <CompanyName>FrisersAfrong</CompanyName>
+  <ContactName>Yannik Noah</ContactName>
+  <Address>Bat. B 3, rue des Alpes</Address>
+  <City>Annecy</City>
+  <PostalCode>74000</PostalCode>
+  <Country>France</Country>
+  <Phone>38.76.98.89</Phone>
+  <Fax>38.76.98.85</Fax>
+ </_empty_>
+ <_empty_>
+  <SupplierID>29</SupplierID>
+  <CompanyName>Fast Runners</CompanyName>
+  <ContactName>Ben Johnsson</ContactName>
+  <Address>148 rue Chasseur</Address>
+  <City>Ste-Hyacinthe</City>
+  <PostalCode>J2S 7S8</PostalCode>
+  <Country>Canada</Country>
+  <Phone>(514) 555-2929</Phone>
+  <Fax>(514) 555-2931</Fax>
+ </_empty_>
+</Suppliers>

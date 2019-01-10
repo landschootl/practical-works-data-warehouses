@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd">
+  <talendfile:ContextType confirmationNeeded="false" name="Default">
+    <contextParameter comment="" name="miageDB_Database" prompt="miageDB_Database?" promptNeeded="false" type="id_String" value="ferlicotdelbe"/>
+    <contextParameter comment="" name="miageDB_AdditionalParams" prompt="miageDB_AdditionalParams?" promptNeeded="false" type="id_String" value="noDatetimeStringSync=true"/>
+    <contextParameter comment="" name="miageDB_Server" prompt="miageDB_Server?" promptNeeded="false" type="id_String" value="webtp"/>
+    <contextParameter comment="" name="miageDB_Login" prompt="miageDB_Login?" promptNeeded="false" type="id_String" value="ferlicotdelbe"/>
+    <contextParameter comment="" name="miageDB_Password" prompt="miageDB_Password?" promptNeeded="false" type="id_Password" value="9ImLzOR60chBMiNswTAp/Q=="/>
+    <contextParameter comment="" name="miageDB_Port" prompt="miageDB_Port?" promptNeeded="false" type="id_String" value="3306"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" name="Production">
+    <contextParameter comment="" name="miageDB_Database" prompt="miageDB_Database?" promptNeeded="false" type="id_String" value="ferlicotdelbe"/>
+    <contextParameter comment="" name="miageDB_AdditionalParams" prompt="miageDB_AdditionalParams?" promptNeeded="false" type="id_String" value="noDatetimeStringSync=true"/>
+    <contextParameter comment="" name="miageDB_Server" prompt="miageDB_Server?" promptNeeded="false" type="id_String" value="webtp"/>
+    <contextParameter comment="" name="miageDB_Login" prompt="miageDB_Login?" promptNeeded="false" type="id_String" value="ferlicotdelbe"/>
+    <contextParameter comment="" name="miageDB_Password" prompt="miageDB_Password?" promptNeeded="false" type="id_Password" value="9ImLzOR60chBMiNswTAp/Q=="/>
+    <contextParameter comment="" name="miageDB_Port" prompt="miageDB_Port?" promptNeeded="false" type="id_String" value="3306"/>
+  </talendfile:ContextType>
+</xmi:XMI>

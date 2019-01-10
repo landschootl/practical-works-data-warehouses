@@ -1,0 +1,17 @@
+SECTION ACCESS ;
+LOAD * inline [
+	ACCESS, USERID, PASSWORD, GROUP
+	ADMIN , A     , A       , GA
+	USER  , B     , B       , GB
+	USER  , C     , C       , GC
+];
+SECTION APPLICATION ;
+STAR IS tous;
+securité1:
+LOAD * inline [
+	GROUP, Country
+	GA   , tous
+	GB   , France
+	GC   , Germany
+	GC	 , Italy
+];
